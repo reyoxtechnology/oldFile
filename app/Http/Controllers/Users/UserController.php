@@ -28,5 +28,15 @@ class UserController extends Controller
         ]);
     }
 
+    public function viewQuoatation(){
+
+    }
+
+    public function acceptQuoation(){
+
+    }
+    public function declineQuoation(){
+        
+    }
     
 }

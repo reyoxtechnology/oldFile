@@ -22,5 +22,15 @@ class AgentController extends Controller
     public function generateQuote(){
 
     }
+    public function viewAcceptedQuoation(){
+
+    }
+    public function makeInvoice(){
+
+    }
+
+    public function takeLoan(){
+        
+    }
 
 }

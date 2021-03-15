@@ -75,7 +75,9 @@ class RegisterController extends Controller
                 'name'=>'required',
                 'email'=> 'required|unique:users',
                 'password'=>'required',
-                'phoneNumber'=>'required'
+                'phoneNumber'=>'required',
+                'AccountNumber'=>'required',
+                'BankName'=>'required'
             ]);
 
             if($validator->fails()){

@@ -8,4 +8,26 @@ use Illuminate\Http\Request;
 class DashboardController extends Controller
 {
     //
+
+    public function viewPayment(){
+        
+    }
+    public function Makepayment(){
+
+    }
+    
+    public function salesReview(){
+
+    }
+
+    public function veiwBusyAgent(){
+
+    }
+    public function AgentwithLoan(){
+
+    }
+    public function verifyAgent(){
+
+    }
+ 
 }
